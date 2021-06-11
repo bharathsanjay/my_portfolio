@@ -5,6 +5,7 @@ import About from '../About/About';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import NavBar from '../NavBar/NavBar';
+import GoHome from '../GoHome/GoHome';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path = "/about" exact component = {About} /> 
         <Route path = "/skils" exact component = {Skills} /> 
         <Route path = "/projects" exact component = {Projects} /> 
+        <GoHome/>
 
       </div>
       </BrowserRouter>
