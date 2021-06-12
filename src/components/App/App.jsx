@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 import Home from '../Home/Home';
 import About from '../About/About';
 import Skills from '../Skills/Skills';
@@ -20,7 +20,7 @@ const sample  = () =>{
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
       <div>
         <NavBar/>
         <Route path = "/" exact component = {Home} /> 
@@ -30,7 +30,7 @@ function App() {
         <GoHome/>
 
       </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
