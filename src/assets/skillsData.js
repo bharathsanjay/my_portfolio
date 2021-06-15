@@ -15,17 +15,15 @@ export const skillList = [
         skillName: 'React',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
     },
-    {
-        skillName: 'Redux',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
-    },
+    
     {
         skillName: 'NodeJS',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
     },
     {
-        skillName: 'TypeScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/ts.png',
+        skillName: 'C++',
+        skillUrl: 'https://drive.google.com/thumbnail?id=1D0s0avwl4lS8mSbFTwsbOnQVDPhAwQsw',
+        
     },
     {
         skillName: 'Java',

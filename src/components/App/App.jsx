@@ -9,13 +9,7 @@ import GoHome from '../GoHome/GoHome';
 
 
 
-const sample  = () =>{
-  return(
-    <div>
-      <h1>i am home page</h1>
-    </div>
-  )
-}
+
 
 function App() {
   return (
@@ -25,7 +19,7 @@ function App() {
         <NavBar/>
         <Route path = "/" exact component = {Home} /> 
         <Route path = "/about" exact component = {About} /> 
-        <Route path = "/skils" exact component = {Skills} /> 
+        <Route path = "/skills" exact component = {Skills} /> 
         <Route path = "/projects" exact component = {Projects} /> 
         <GoHome/>
 

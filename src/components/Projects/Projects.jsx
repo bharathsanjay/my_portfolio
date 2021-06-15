@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projects() {
     return (
-        <div>
+        <div className="section-container">
             <h1>this is projects page</h1>
         </div>
     )
